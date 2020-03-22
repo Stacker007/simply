@@ -1,0 +1,30 @@
+.App{
+  margin: 0 auto;
+  display: grid;
+  width: 970px;
+
+  grid-template-areas:
+"header header header"
+"menu content content";
+  grid-template-rows: 60px 1fr;
+  grid-template-columns: 2fr 10fr;
+  grid-gap: 10px;
+
+}
+
+.header{
+  grid-area: header;
+  background-color: darkslategray;
+
+}
+
+.menu{
+  grid-area: menu;
+  background-color: dimgray;
+
+}
+
+.main-content{
+  grid-area: content;
+  background-color: white;
+}
