@@ -1,8 +1,9 @@
 import React from 'react';
+import './SnapProfile.css'
 
 const SnapProfile = () =>{
     return (
-        <header className={'snap-profile'}>
+        <div className={'snap-profile'}>
             <div className={'login'}>
                 Login
             </div>
@@ -10,7 +11,7 @@ const SnapProfile = () =>{
                 e-mail
             </div>
 
-        </header>
+        </div>
     )
 }
 export default SnapProfile;

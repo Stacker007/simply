@@ -1,0 +1,14 @@
+.logo_small{
+    color: white;
+    text-align: center
+
+}
+.logo{
+    text-transform: uppercase;
+    font-family: "Montserrat";
+    font-weight: 800;
+    font-size: 35px;
+    font-style: normal;
+    border-width: 0px;
+    margin: 0;
+}

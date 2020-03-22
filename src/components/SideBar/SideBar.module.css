@@ -1,0 +1,11 @@
+.menu{
+    grid-area: menu;
+    background: #101924;
+    border-right-color: #203247;
+
+
+}
+.item{
+    color: white;
+    padding-left: 20px;
+}

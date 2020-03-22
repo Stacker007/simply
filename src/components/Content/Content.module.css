@@ -1,0 +1,15 @@
+.main_content{
+    background-color: #F5F6FA;
+    font-family: Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif;
+    grid-area: content;
+    padding: 10px;
+    color: #526484;
+}
+.table{
+    background-color: white;
+    padding: 5px;
+    border: 1px solid #e5e9f2;
+    border-radius: 4px;
+
+
+}

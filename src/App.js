@@ -1,7 +1,7 @@
 import React from 'react';
-import Header from './components/Header'
-import SideBar from './components/SideBar'
-import Content from './components/Content'
+import Header from './components/Header/Header'
+import SideBar from './components/SideBar/SideBar'
+import Content from './components/Content/Content'
 
 import './App.css';
 

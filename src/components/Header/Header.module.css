@@ -1,0 +1,10 @@
+.header{
+    grid-area: header;
+    border-bottom: 1px solid #e5e9f2;
+    border-right: 1px solid #e5e9f2;
+
+
+
+    padding: 10px;
+
+}

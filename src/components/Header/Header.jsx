@@ -1,11 +1,9 @@
 import React from 'react';
-import logo from '../logo.svg'
+import classes from './Header.module.css'
 const Header = () =>{
     return (
-        <header className={'header'}>
-            <div className={'logo'}>
-                SIMPLY
-            </div>
+        <header className={classes.header}>
+
             <div className={'descriptor'}>
                 The simplest TO-DO list
             </div>

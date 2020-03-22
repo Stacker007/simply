@@ -1,25 +1,26 @@
 import React from 'react';
+import classes from './Content.module.css';
 const Header = () =>{
     return (
-        <header className={'main-content'}>
+        <header className={classes.main_content}>
             <div>
                 Menu
             </div>
             <div>
                 Today:
-                <div>
+                <div className={classes.table}>
                     today table
                 </div>
             </div>
             <div>
                 Tomorrow
-                <div>
+                <div className={classes.table}>
                     tomorrow table
                 </div>
             </div>
             <div>
                 Someday
-                <div>
+                <div className={classes.table}>
                     someday table
                 </div>
             </div>
